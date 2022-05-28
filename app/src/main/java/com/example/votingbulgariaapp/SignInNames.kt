@@ -6,6 +6,12 @@ import android.os.Bundle
 import android.widget.Button
 
 class SignInNames : AppCompatActivity() {
+
+    //tbd : Save data while switching layouts
+    var fstName: String = ""
+    var sndName: String = ""
+    var lastName: String = ""
+
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
