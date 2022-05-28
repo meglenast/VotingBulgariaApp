@@ -4,10 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Meg/Desktop/VotingBulgariaApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.124" />
+        <entry key="..\:/Users/Meg/Desktop/VotingBulgariaApp/app/src/main/res/layout/activity_current_elections.xml" value="0.264" />
         <entry key="..\:/Users/Meg/Desktop/VotingBulgariaApp/app/src/main/res/layout/activity_log_in.xml" value="0.2341485507246377" />
         <entry key="..\:/Users/Meg/Desktop/VotingBulgariaApp/app/src/main/res/layout/activity_log_in_credentials.xml" value="0.1" />
         <entry key="..\:/Users/Meg/Desktop/VotingBulgariaApp/app/src/main/res/layout/activity_log_in_enter_security_codes.xml" value="0.136" />
-        <entry key="..\:/Users/Meg/Desktop/VotingBulgariaApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Meg/Desktop/VotingBulgariaApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Meg/Desktop/VotingBulgariaApp/app/src/main/res/layout/activity_sign_in_authentication.xml" value="0.1569767441860465" />
         <entry key="..\:/Users/Meg/Desktop/VotingBulgariaApp/app/src/main/res/layout/activity_sign_in_extra_data.xml" value="0.12751677852348994" />
         <entry key="..\:/Users/Meg/Desktop/VotingBulgariaApp/app/src/main/res/layout/activity_sign_in_id.xml" value="0.2" />
@@ -15,6 +16,7 @@
         <entry key="..\:/Users/Meg/Desktop/VotingBulgariaApp/app/src/main/res/layout/activity_sign_in_personal_data.xml" value="0.2" />
         <entry key="..\:/Users/Meg/Desktop/VotingBulgariaApp/app/src/main/res/layout/activity_sign_in_personal_documents.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/Meg/Desktop/VotingBulgariaApp/app/src/main/res/layout/activity_sign_in_photo.xml" value="0.128" />
+        <entry key="..\:/Users/Meg/Desktop/VotingBulgariaApp/app/src/main/res/layout/activity_voting_main_menu.xml" value="0.2" />
       </map>
     </option>
   </component>
