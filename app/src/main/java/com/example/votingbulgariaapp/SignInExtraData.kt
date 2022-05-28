@@ -5,16 +5,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class SignInPhoto : AppCompatActivity() {
+class SignInExtraData : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sign_in_photo)
+        setContentView(R.layout.activity_sign_in_extra_data)
 
-        val btnConfirmPhoto = findViewById<Button>(R.id.confirmPhotoInputBtn)
-        btnConfirmPhoto.setOnClickListener {
-            val intent = Intent(this, SignInExtraData::class.java)
+        val btnConfirmInput = findViewById<Button>(R.id.confirmExtraDataBtn)
+        btnConfirmInput.setOnClickListener {
+            val intent = Intent(this, SignInAuthentication::class.java)
             startActivity(intent)
         }
-
     }
 }
