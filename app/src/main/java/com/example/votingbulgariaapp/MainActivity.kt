@@ -15,5 +15,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SignInNames::class.java)
             startActivity(intent)
         }
+
+        val btnLogInWithCredentials = findViewById<Button>(R.id.logInCredBtn)
+        btnLogInWithCredentials.setOnClickListener {
+            val intent = Intent(this, LogInCredentials::class.java)
+            startActivity(intent)
+        }
     }
 }
