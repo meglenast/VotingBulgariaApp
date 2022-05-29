@@ -69,10 +69,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:text="РЕГИСТРАЦИЯ"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_active"
+            android:text="РЕГИСТРАЦИЯ"/>
 
         <Button
             android:id="@+id/logInCredBtn"
@@ -80,11 +82,13 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:text="ВХОД С Е-MAIL"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/signInBtn" />
+            app:layout_constraintTop_toBottomOf="@+id/signInBtn"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_active"
+            android:text="ВХОД С Е-MAIL"/>
 
         <Button
             android:id="@+id/helpBtn"
@@ -92,6 +96,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_active"
             android:text="ВХОД С DID"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
