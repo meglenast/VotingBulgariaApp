@@ -17,9 +17,14 @@ class SignInNames : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in_names)
 
-        val btnConfirmNamesInput = findViewById<Button>(R.id.confirmNamesInputBtn)
-        btnConfirmNamesInput.setOnClickListener {
+        val btnConfirm = findViewById<Button>(R.id.btnConfirm)
+        btnConfirm.setOnClickListener {
             val intent = Intent(this, SignInPersonalDocuments::class.java)
+            startActivity(intent)
+        }
+        val btnBack = findViewById<Button>(R.id.btnBack)
+        btnBack.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }

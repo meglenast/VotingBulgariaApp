@@ -10,10 +10,12 @@ class LogInEnterSecurityCodes : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_log_in_enter_security_codes)
 
-        val btnConfirmSecCOdes = findViewById<Button>(R.id.confirmSecBtn)
+        val btnConfirmSecCOdes = findViewById<Button>(R.id.btnConfirm)
         btnConfirmSecCOdes.setOnClickListener {
             val intent = Intent(this, VotingMainMenu::class.java)
             startActivity(intent)
         }
+
+
     }
 }

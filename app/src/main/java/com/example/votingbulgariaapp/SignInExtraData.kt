@@ -10,9 +10,15 @@ class SignInExtraData : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in_extra_data)
 
-        val btnConfirmInput = findViewById<Button>(R.id.confirmExtraDataBtn)
+        val btnConfirmInput = findViewById<Button>(R.id.btnConfirm)
         btnConfirmInput.setOnClickListener {
             val intent = Intent(this, SignInAuthentication::class.java)
+            startActivity(intent)
+        }
+
+        val btnBack = findViewById<Button>(R.id.btnBack)
+        btnBack.setOnClickListener {
+            val intent = Intent(this, SignInPhoto::class.java)
             startActivity(intent)
         }
     }
